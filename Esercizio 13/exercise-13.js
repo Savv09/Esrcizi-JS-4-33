@@ -17,5 +17,3 @@ const divide = (a, b) => {
 const log = value => console.log(value);
 
 console.log((`${divide(subtract(multiply(sum(2, 4), sum(5, 2)), 2), 5)}`))
-
-
