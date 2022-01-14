@@ -4,7 +4,7 @@ function memoize(fn) {
   return function (n) {
     if(fn(n) in cache) {
       
-      return `${fn(n)}`
+      return fn(n)
     } else {
       
      return cache.factor = fn(n)
